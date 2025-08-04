@@ -6,7 +6,7 @@ function Leaderboard() {
   const [leaders, setLeaders] = useState([]);
 
   useEffect(() => {
-     axios.get('https://internportal-backend-mwqy.onrender.com/api/user')
+     axios.get('https://internportal-backend-mwqy.onrender.com/api/leaderboard')
       .then(res => setLeaders(res.data))
       .catch(err => console.log(err));
   }, []);
@@ -24,4 +24,5 @@ function Leaderboard() {
 }
 
 export default Leaderboard;
+
 
