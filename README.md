@@ -56,7 +56,6 @@ Edit
 }
 🌐 Deployment Tips
 Frontend: Deploy on Netlify or Vercel
-
 Backend: Deploy on Render (as Web Service)
 
 📸 Features
