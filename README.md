@@ -60,7 +60,7 @@ Frontend: Deploy on Netlify or Vercel
 Backend: Deploy on Render (as Web Service)
 
 📸 Features
-Dummy login/signup page
-Dashboard with name, referral code, donation amount
-Static rewards/unlockables section
-Optional: Static leaderboard page
+1)Dummy login/signup page
+2)Dashboard with name, referral code, donation amount
+3)Static rewards/unlockables section
+4)Optional: Static leaderboard page
