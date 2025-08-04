@@ -7,7 +7,7 @@ function Dashboard() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/user')
+    axios.get('https://internportal-backend-mwqy.onrender.com/api/user')
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   }, []);
@@ -31,3 +31,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
