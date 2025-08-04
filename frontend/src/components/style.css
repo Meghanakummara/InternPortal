@@ -1,0 +1,85 @@
+/* Global Style Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  color: #333;
+}
+
+/* Reusable Container */
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Headings */
+h2, h3 {
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+/* Input Field */
+input {
+  padding: 10px 15px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #125ea8;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* List Style */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+
+ul li {
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
